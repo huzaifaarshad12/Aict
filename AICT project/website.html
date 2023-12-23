@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    <title>Tech Explorer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto Slab', serif;
+            box-sizing: border-box;
+        }
+        
+        .Explore {
+            background-image: linear-gradient(rgba(1, 20, 110, 0.64), rgba(0, 60, 70, 0.64)), url(Explore.jpg);
+            background-position: center;
+            color: #fff;
+        }
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            padding: 10px 8%;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        
+        .logo {
+            color: #fff;
+            font-size: 45px;
+            cursor: pointer;
+            filter: drop-shadow(0 0 5px #000);
+            margin: 30px 10px; /* Center the logo */
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+        
+        nav ul li {
+            margin: 0 30px;
+            font-size: 30px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .btn {
+            padding: 20px 30px;
+            border: 0;
+            outline: 0;
+            border-radius: 15px;
+            background: black;
+            color: #fff;
+            font-weight: 700;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            box-shadow: 0px 2px 40px 0px rgba(255, 255, 255, 0.3);
+        }
+        
+        h1 {
+            padding: 0;
+            margin-top: 25%;
+            font-size: 100px;
+        }
+
+        h6 {
+            text-align: center;
+            font-size: 20px;
+        }
+        p {
+            margin-bottom: 25%;
+            font-size: larger;
+        }
+        .Row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+
+        .Col {
+            flex-basis: 48%;
+            margin-bottom: 20px;
+        }
+
+        .Explorer_card {
+            height: 600px;
+            width: 100%;
+            margin-top: 30px;
+            padding: 20px 10px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            cursor: pointer;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            transition: 0.3s;
+            flex-direction: column;
+            justify-content: flex-end;
+            color: #fff;
+        }
+
+        .Explorer_card1 {
+            background-image: url('space1.png');
+        }
+
+        .Explorer_card2 {
+            background-image: url('Quantum.jpg');
+        }
+
+        .Explorer_card3 {
+            background-image: url('augmentedReality.jpeg');
+        }
+
+        .Explorer_card4 {
+            background-image: url('TinyRobot.jpg');
+        }
+
+        .Explorer_card5 {
+            background-image: url('brainChip.jpg');
+        }
+
+        .Explorer_card6 {
+            background-image: url('hologram.jpg');
+        }
+
+        .Explorer_card:hover {
+            box-shadow: 0px 2px 40px 0px rgba(255, 255, 255, 0.3);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <section class="Explore">
+        <div class="container">
+            <nav>
+                <p class="logo">Tech Explorer</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="weight.html">Weight</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                <button class="btn">Sign Up</button>
+            </nav>
+            <h1>The World of Future</h1>
+            <p>
+                "The future of technology is not just about innovation; it's about empowering humanity to create a brighter,
+                more interconnected tomorrow <br> where possibilities are limitless and progress knows no bounds."
+            </p>
+            <div class="Row">
+                <div class="Col">
+                    <div class="Explorer_card Explorer_card1">
+                        <h1></h1>
+                        <p>alcjkjdc dsjc xckjlxkjfk</p>
+                    </div>
+                </div>
+                <div class="Col">
+                    <div class="Explorer_card Explorer_card2">
+                        <h1>good</h1>
+                        <p>nlkanklzxc dsklxc cxcx</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Row">
+                <div class="Col">
+                    <div class="Explorer_card Explorer_card3">
+                        <h1>awesome</h1>
+                        <p>xyz abc def</p>
+                    </div>
+                </div>
+                <div class="Col">
+                    <div class="Explorer_card Explorer_card4">
+                        <h1>inspiring</h1>
+                        <p>jkl mno pqr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Row">
+                <div class="Col">
+                    <div class="Explorer_card Explorer_card5">
+                        <h1>fascinating</h1>
+                        <p>uvw xyz 123</p>
+                    </div>
+                </div>
+                <div class="Col">
+                    <div class="Explorer_card Explorer_card6">
+                        <h1>innovative</h1>
+                        <p>456 789 000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h6>&copy; 2023 TechExplorer.com</h6>
+        </footer>
+    </section>
+</body>
+
+</html>
