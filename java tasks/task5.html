@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    </head>
+<body>
+
+    <h2>Login Form</h2>
+
+    
+        <label >Username:</label>
+        <input type="text" id="username" >
+
+        <label >Password:</label>
+        <input type="password" id="password" >
+
+        <button type="submit">Login</button>
+    </form>
+
+    <div id="answer"></div>
+
+    <script>
+        function validateLogin() {
+
+          
+            var enteredUsername = document.getElementById('username').value;
+            var enteredPassword = document.getElementById('password').value;
+            if (enteredUsername === 'aict' && enteredPassword === 'huzaifa') 
+            {
+                document.getElementById('answer').innerHTML = 'Login successful!';
+            } else 
+            {
+                document.getElementById('answer').innerHTML = 'Invalid username or password. Please try again.';
+            }
+        }
+    </script>
+
+</body>
+</html>
